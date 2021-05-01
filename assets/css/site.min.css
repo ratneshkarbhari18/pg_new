@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+div#quick-actions-box{
+  background-color: white;
+  border: 1px solid darkgray;
+  width: 3em;
+  position: fixed;
+  right: 0;
+  top: 35%;
+  z-index: 90000000000;
+}
+
+
+ul#qa-list{
+  padding-top: 10%;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+img.bouncing-icon{
+  margin: 20% 0 20% 20%;
+}
+
+.bouncing-icon {
+  width: 20px;
+  height: 20px;
+  animation: boucingIcon 2s linear infinite;
+}
+
+.contact-info-icon{
+  width: 30px;
+}
+.contact-info-title{
+  font-size: 25px;
+  font-weight: bold;
+  color: #393185;
+}
+p.contact-info-detail{
+  font-weight: 500;
+} 
+
+.tooltip-inner {
+  background-color: #ffffff;
+  color: #000000;
+}
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: #ffffff !important;
+}
+.tooltip.bs-tooltip-left .arrow:before {
+  border-right-color: #ffffff !important;
+}
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-right-color: #ffffff !important;
+}
+.tooltip.bs-tooltip-top .arrow:before {
+  border-right-color: #ffffff !important;
+}
+header#desktop{
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 3em;
+  background-repeat: no-repeat;
+}
+.top-nav-curved-link{
+  margin-right: 3%;
+  color: #393185;
+  font-size: 12px;
+  font-weight: 600;
+}
+.top-icon{
+  width: 30px;
+  height: 30px;
+}
+section#home-hero-touch{
+  background-image: url(../images/bgs/homeimages.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: -5;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  animation: breath 25s linear infinite;
+  background-repeat: no-repeat;
+}
+
+
+/* HomePage Styles */
+
+@keyframes breath {
+  0%   { background-size: 100% auto; }
+  25% { background-size: 125% auto; }
+  40% { background-size: 140% auto; }
+  50% { background-size: 150% auto; }
+  75% { background-size: 175% auto; }
+  100% { background-size: 200% auto; }
+}
+  
+section#home-hero{
+  background-image: url(../images/bgs/homeimages.jpg);
+  top: 7em;
+  position: absolute;
+  width: 100%;
+  padding: 20em 0;
+  z-index: -5;
+  animation: breath 25s linear infinite;
+  background-position: center;
+}
+section#map-section-desktop{
+  background-size: cover;
+  padding: 7% 0;
+  position: absolute;
+  width: 100%;
+  top: 45em;
+  background-position: center;
+}
+section#about-us-desktop{
+  position: absolute;
+  width: 100%;
+  top: 90em;
+}
+h1.section-title{
+  color: #393185;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 2em 0;
+}
+section#projects-desktop
+{
+  padding: 5% 0 12% 0;
+  position: absolute;
+  width: 100%;
+  top: 145em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-grid-box{
+  border: 3px solid #008DD2;
+  border-radius: 10px;
+    height: 300px;
+  z-index: 50;
+}
+.project-grid-meta{
+  padding-top: 6em;
+  color: #000;
+  font-weight: bold;
+}
+
+.project-grid-meta h4,.project-grid-meta h6{
+  font-weight: bold;
+}
+
+section#customers-speak-desktop {
+  position: absolute;
+    padding: 5% 0 5% 0;
+    border: 15px solid #fff;
+    background-color: white;
+    width: 100%;
+    top: 175em;
+    z-index: 5;
+}
+
+.testimonial-slide{
+  min-height: 300px !important;
+}
+section#industry-affairs-desktop{
+  z-index: 5;
+  background-size: 100% 100%;
+  background-position: bottom;
+  padding: 10em 0 10em 0;
+  position: absolute;
+  width: 100%;
+  top: 252em;
+}
+section#gallery-desktop{
+  background-position: bottom;
+  background-size: cover;
+  padding: 15em 0;
+  z-index: 5;
+  top: 205em;
+  width: 100%;
+}
+
+.township-meta {
+  position: absolute;
+  top: 30%;
+  color: #fff;
+  left: 28%;
+}
+
+footer#desktop{
+  padding: 5rem 0 5rem 0;
+  background-color: #393185;
+}
+.hover-style-button
+{
+background-color: #393185; 
+color: white !important;
+border-radius: 10px;
+border: 1px solid white;
+}
+.hover-style-button:hover{
+  color: #393185 !important; 
+  background-color: white !important;
+}
+
+section#investors-corner-bg-image{
+  background-image: url('../images/ic_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  z-index: -5;
+  height: 51rem;
+}
+
+section#about-us-sales{
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  top: 50rem;
+}
+
+
+h3.simple-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #393185;
+}
+ul#variables-list{
+  margin-bottom: 0 !important;
+}
+.variable-list-item{
+  padding-top: 5%;
+  border: 3px solid #393185;
+  margin-bottom: 3%;
+  border-radius: 10px;
+}
+.variable-list-item:hover{
+  background-color: #393185;
+  cursor: pointer;
+}
+h5.variable{
+  color: #393185;
+  font-weight: bold;
+}
+.variable-list-item:hover div.row div.col-6 h5{
+  color: white !important;
+}
+.variable-list-item:hover div.row div.col-6.form-group p.variable-value-wrapper{
+  color: white;
+}
+div#emi-calculator-box{
+  background-image: url("../images/bgs/testimonial1.png");
+  background-position: center;    
+  background-size: 300%;
+  border-radius: 10px;
+}
+
+img.home-icon-gold{
+  width: 50px;
+}
+
+.bg-div{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='614.4' height='355.713' viewBox='0 0 16256 9412' shape-rendering='geometricPrecision' text-rendering='geometricPrecision' image-rendering='optimizeQuality' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='14955.5' y1='4705.77' x2='1300.48' y2='4705.77'%3E%3Cstop offset='0' stop-color='%23b2def3'/%3E%3Cstop offset='.431' stop-color='%23b9d0e9'/%3E%3Cstop offset='1' stop-color='%23c0c1de'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M16256 0v7927c-1868 902-4814 1485-8128 1485S1868 8829 0 7927V0c1868 902 4814 1485 8128 1485S14388 902 16256 0z' fill='url(%23a)'/%3E%3C/svg%3E");  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+div.project-slide-meta{
+  padding: 3%;
+}
+.project-slide-title{
+  font-size: 20px;
+  color: #393185;
+}
+h2.project-title{
+  color: #393185;
+  font-size: 1.8rem !important;
+  font-weight: bold;
+}
+
+.usual-projects-page-section{
+  padding: 5em 0;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='614.4' height='206.711' viewBox='0 0 16256 5469' shape-rendering='geometricPrecision' text-rendering='geometricPrecision' image-rendering='optimizeQuality' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='14955.5' y1='2734.61' x2='1300.48' y2='2734.61'%3E%3Cstop offset='0' stop-color='%23b2def3'/%3E%3Cstop offset='.431' stop-color='%23b9d0e9'/%3E%3Cstop offset='1' stop-color='%23c0c1de'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M16256 0v3985c-1868 902-4814 1484-8128 1484S1868 4887 0 3985V0c1868 902 4814 1485 8128 1485S14388 902 16256 0z' fill='url(%23a)'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+
+}
