@@ -340,6 +340,36 @@
             });
         </script>
     </section>
+    <section id="customer-speaks-touch">
+        <div class="container">
+            <h1 class="section-title" style="margin: 1em 0;">CUSTOMER SPEAKS</h1>
+            <div class="owl-carousel testimonial-slider owl-theme">   
+                <div class="testimonial-slide-touch container-fluid">
+                    <!-- <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image"> -->
+                    <h4 class="testimonial-title">Mr. Sanghvi</h4>
+                    <p style="margin-bottom: 3%;">The most important but scarce quality in people is TRUST. Precious Group is just that – one of pure, mutual TRUST, an example of belief in people being reciprocated in the real spirit. My experience with them shows that Precious Group has grown exponentially and the basis of this growth has to be fair practices and trust.</p>
+                    <p><span style="font-weight: bold; color:#393185;">Precious Harmony </span></p>
+                </div>
+                <div class="testimonial-slide-touch container-fluid">
+                    <!-- <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image"> -->
+                    <h4 class="testimonial-title">Dilip Dhawan</h4>
+                    <p style="margin-bottom: 3%;">Precious Group didn’t just give us a flat, but an extended family in the form of neighbours and good community living. We as a family are more than happy to have come across Precious Group as they correctly identified our requirement and suggested a location which in our budget as well as fulfilled with amenities.</p>
+                    <p><span style="font-weight: bold; color:#393185;">Precious Heritage</span></p>
+                </div>
+                <div class="testimonial-slide-touch container-fluid">
+                    <!-- <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image"> -->
+                    <h4 class="testimonial-title">Sundaram Phadke</h4>
+                    <p style="margin-bottom: 3%;">Initially I had just come along with my friend for a site visit, my plan was to wait for 2 years and then invest, but after the site visit, frequent meetings with the Precious Groups, and their after service which I witnessed through my friends helped me to be sure about Precious Group. Further without any delay, within a year I booked a flat with Precious Group. And I and my Family are glad to have made this decision. </p>
+                    <p><span style="font-weight: bold; color:#393185;">Precious Emerald</span> </p>
+                </div>
+            </div>
+        </div>
+        <style>
+            .testimonial-slide-touch{
+                padding: 2em;
+            }
+        </style>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
     <script>
         $(".touch-slider").owlCarousel(
@@ -347,6 +377,27 @@
                 autoplay:true,
                 autoplayTimeout:2000,
                 stagePadding: 50,
+                loop:true,
+                margin:10,
+                nav:false,
+                dots: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    780:{   
+                        items:2
+                    },
+                    1024:{
+                        items:3
+                    }
+                }
+            }
+        );
+        $(".testimonial-slider").owlCarousel(
+            {
+                autoplay:true,
+                autoplayTimeout:2000,
                 loop:true,
                 margin:10,
                 nav:false,

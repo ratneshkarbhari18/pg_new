@@ -373,3 +373,9 @@ h2.project-title{
   background-position: bottom;
 
 }
+section#customer-speaks-touch {
+  position: absolute;
+  width: 100%;
+  top: 175em;
+  padding-bottom: 5em;
+}
