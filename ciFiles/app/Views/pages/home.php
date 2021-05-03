@@ -160,7 +160,9 @@
 
             <div class="owl-carousel" id="gallery-carousel">
                 <?php for($i=1;$i<=3;$i++): ?>
+                <a href="<?php echo site_url("assets/images/gallery_0".$i.'.jpg'); ?>" data-lity>
                 <img src="<?php echo site_url("assets/images/gallery_0".$i.'.jpg'); ?>" class="gallery-image w-100">
+                </a>
                 <?php endfor; ?>
             </div>
         </div>
@@ -369,6 +371,18 @@
                 padding: 2em;
             }
         </style>
+    </section>
+    <section id="gallery-touch">
+        <div class="container">
+            <h1 class="section-title" style="margin: 1em 0;">GALLERY</h1>
+            <div class="owl-carousel touch-slider owl-theme">
+                <?php for($i=1;$i<=3;$i++): ?>
+                <a href="<?php echo site_url("assets/images/gallery_0".$i.'.jpg'); ?>" data-lity>
+                <img src="<?php echo site_url("assets/images/gallery_0".$i.'.jpg'); ?>" class="gallery-image w-100">
+                </a>
+                <?php endfor; ?>
+            </div>
+        </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
     <script>
