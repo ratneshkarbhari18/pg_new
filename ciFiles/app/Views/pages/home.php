@@ -108,7 +108,7 @@
                 </div>
             </div>
             <script>
-                $(".project-grid-box").hover(function () {
+                $(".project-grid-box-touch").hover(function () {
                     let pid = $(this).attr("pid");
                     $("a#vp-button-"+pid).css("display","block");
                     $("div#p-meta-"+pid).css("display","none");
@@ -118,9 +118,8 @@
                         $("div#p-meta-"+pid).css("display","block");
                     }
                 );
-                $(".project-grid-box").on('hover', function () {
+                $(".project-grid-box-touch").on('hover', function () {
                     let pid = $(this).attr("pid");
-                    console.log(pid);
                     $("a#vp-button-"+pid).css("display","block");
                     $("div#p-meta-"+pid).css("display","none");
                 });
@@ -286,7 +285,85 @@
             </p>
             <p>We take the pleasure to have 1213+ extended families onboard through our journey within 5,000,00 sq.ft of developed land. 
             We pledge to continue this mission of world-class development and to enrich living styles across all spectrum of society.</p>
+            <div class="owl-carousel touch-slider owl-theme">
+                <?php for($i=1;$i<=4;$i++): ?>
+                <img src="<?php echo site_url("assets/images/feature".$i.".png"); ?>" class="w-100">
+                <?php endfor; ?>
+            </div>
         </div>
     </section>
+    <section id="projects-touch">
+        <div class="container">
+            <div class="owl-carousel touch-slider owl-theme">
+                <div class="project-grid-box-touch" pid="1" style="background-image: url('<?php echo site_url("assets/images/home_p1.jpg") ?>'); background-size: cover;">
+                    <div id="p-meta-1" class="project-grid-meta-touch text-center">
+                        <h4 class="project-grid-title">Precious Harmony</h4>
+                    </div>
+                    <a href="<?php  echo site_url("precious-harmony"); ?>" id="vp-button-1" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
+                    VIEW PROPERTIES
+                    </a>
+                </div>
+                <div class="project-grid-box-touch" pid="2" style="background-image: url('<?php echo site_url("assets/images/home_p2.jpg") ?>'); background-size: cover;">
+                    <div id="p-meta-1" class="project-grid-meta-touch text-center">
+                        <h4 class="project-grid-title">Precious Emerald</h4>
+                    </div>
+                    <a href="<?php  echo site_url("precious-emerald"); ?>" id="vp-button-2" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
+                    VIEW PROPERTIES
+                    </a>
+                </div>
+                <div class="project-grid-box-touch" pid="3" style="background-image: url('<?php echo site_url("assets/images/home_p3.jpg") ?>'); background-size: cover;">
+                    <div id="p-meta-1" class="project-grid-meta-touch text-center">
+                        <h4 class="project-grid-title">Precious Heritage</h4>
+                    </div>
+                    <a href="<?php  echo site_url("precious-heritage"); ?>" id="vp-button-3" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
+                    VIEW PROPERTIES
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(".project-grid-box-touch").hover(function () {
+                let pid = $(this).attr("pid");
+                $("a#vp-button-"+pid).css("display","block");
+                $("div#p-meta-"+pid).css("display","none");
+                }, function () {
+                    let pid = $(this).attr("pid");
+                    $("a#vp-button-"+pid).css("display","none");
+                    $("div#p-meta-"+pid).css("display","block");
+                }
+            );
+            $(".project-grid-box-touch").on('hover', function () {
+                let pid = $(this).attr("pid");
+                console.log(pid);
+                $("a#vp-button-"+pid).css("display","block");
+                $("div#p-meta-"+pid).css("display","none");
+            });
+        </script>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script>
+        $(".touch-slider").owlCarousel(
+            {
+                autoplay:true,
+                autoplayTimeout:2000,
+                stagePadding: 50,
+                loop:true,
+                margin:10,
+                nav:false,
+                dots: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    780:{   
+                        items:2
+                    },
+                    1024:{
+                        items:3
+                    }
+                }
+            }
+        );
+    </script>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js" integrity="sha512-UU0D/t+4/SgJpOeBYkY+lG16MaNF8aqmermRIz8dlmQhOlBnw6iQrnt4Ijty513WB3w+q4JO75IX03lDj6qQNA==" crossorigin="anonymous"></script>

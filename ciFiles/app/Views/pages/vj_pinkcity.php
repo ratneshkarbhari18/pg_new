@@ -258,7 +258,7 @@
     div#emi-calculator-box{
         background-image: url("<?php echo site_url("assets/images/bgs/testimonial1.png"); ?>");
         background-position: center;    
-        background-size: 500%;
+        background-size: 1000%;
         border-radius: 10px;
     }
     h5.variable{

@@ -183,6 +183,16 @@ h1.section-title{
   font-size: 30px;
   margin: 2em 0;
 }
+section#projects-touch{
+  padding: 5em 0;
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  top: 145em;
+  background-position: center;
+}
 section#projects-desktop
 {
   padding: 5% 0 12% 0;
@@ -203,11 +213,19 @@ section#projects-desktop
 section#about-section-touch{
   position: absolute;
     width: 100%;
-    top: 65em;
+    top: 55em;
+    padding: 10em 0;
 }
 .project-grid-meta{
   padding-top: 6em;
-  color: #000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.project-grid-meta-touch{
+  padding-top: 6em;
+  padding-bottom: 6em;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -320,7 +338,7 @@ h5.variable{
 div#emi-calculator-box{
   background-image: url("../images/bgs/testimonial1.png");
   background-position: center;    
-  background-size: 500%;
+  background-size: 1000%;
   border-radius: 10px;
 }
 
@@ -351,7 +369,7 @@ h2.project-title{
   padding: 5em 0;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='614.4' height='206.711' viewBox='0 0 16256 5469' shape-rendering='geometricPrecision' text-rendering='geometricPrecision' image-rendering='optimizeQuality' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='14955.5' y1='2734.61' x2='1300.48' y2='2734.61'%3E%3Cstop offset='0' stop-color='%23b2def3'/%3E%3Cstop offset='.431' stop-color='%23b9d0e9'/%3E%3Cstop offset='1' stop-color='%23c0c1de'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M16256 0v3985c-1868 902-4814 1484-8128 1484S1868 4887 0 3985V0c1868 902 4814 1485 8128 1485S14388 902 16256 0z' fill='url(%23a)'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
 
 }
