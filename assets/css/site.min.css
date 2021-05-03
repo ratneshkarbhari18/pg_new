@@ -200,6 +200,11 @@ section#projects-desktop
     height: 300px;
   z-index: 50;
 }
+section#about-section-touch{
+  position: absolute;
+    width: 100%;
+    top: 65em;
+}
 .project-grid-meta{
   padding-top: 6em;
   color: #000;

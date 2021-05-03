@@ -272,5 +272,21 @@
             </div>
         </div>
     </section>
+    <section id="about-section-touch">
+        <div class="container">
+            <h1 class="section-title">ABOUT US</h1>
+            <p>We at precious group actively seek growth by combining dual ethos of integrity and aesthetics in building better tomorrow.
+            Home is the biggest investment of your lifetime; we understand; and hence we strive to contribute our best in fulfilling your dreams. We are committed to always meeting our possession times with your satisfaction in mind, and we will always do everything possible to ensure that your home is ready on or before the promised delivery time.
+            <p>
+            Our mission is to provide prompt and hassle free services for a complete customer satisfaction for which we always carry a value for money approach.</p>
+            </p><p>
+            To achieve our goals and fulfill your demands, we have skilled workforce under the direct supervision of a highly progressive management. Our Experts are always happy to help you at various stages in selection of locations per your need.
+            
+            Our commitment to quality & innovation is earning us the enduring trust of our customers and making us the renowned brand. </p>
+            </p>
+            <p>We take the pleasure to have 1213+ extended families onboard through our journey within 5,000,00 sq.ft of developed land. 
+            We pledge to continue this mission of world-class development and to enrich living styles across all spectrum of society.</p>
+        </div>
+    </section>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js" integrity="sha512-UU0D/t+4/SgJpOeBYkY+lG16MaNF8aqmermRIz8dlmQhOlBnw6iQrnt4Ijty513WB3w+q4JO75IX03lDj6qQNA==" crossorigin="anonymous"></script>
