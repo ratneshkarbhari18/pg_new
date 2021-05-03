@@ -153,6 +153,16 @@ section#home-hero{
   animation: breath 25s linear infinite;
   background-position: center;
 }
+section#map-section-touch{
+  top: 23em;
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7% 0;
+  width: 100%;
+  background-position: center;
+}
 section#map-section-desktop{
   background-size: cover;
   padding: 7% 0;

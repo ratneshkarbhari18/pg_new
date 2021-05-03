@@ -262,5 +262,15 @@
             <h1 id="touch-section-title-hero">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
         </div>
     </section>
+    <section id="map-section-touch">
+        <div class="container text-center">
+            <img src="<?php echo site_url("assets/images/maploc.png"); ?>" alt="" class="w-50" style="margin-bottom: 1em;">
+            <img src="<?php echo site_url("assets/images/map_nfacts_text.jpg"); ?>" alt="" class="w-50" style="margin-bottom: 1em;">
+            <div id="address" class="text-center w-100" style="margin-bottom: 2em;">
+                <h4 style="color: #393185;">Head Office: </h4>
+                <p>Shop No. 1 &amp; 2, Sai Aura Building,  Plot Number 33, <br>Sector 17, Near Sadguru Sweets, Ulwe, Navi Mumbai, Maharashtra 410206 </p>
+            </div>
+        </div>
+    </section>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js" integrity="sha512-UU0D/t+4/SgJpOeBYkY+lG16MaNF8aqmermRIz8dlmQhOlBnw6iQrnt4Ijty513WB3w+q4JO75IX03lDj6qQNA==" crossorigin="anonymous"></script>
