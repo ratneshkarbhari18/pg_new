@@ -115,18 +115,22 @@ a.sidenav-link{
   width: 30px;
   height: 30px;
 }
-section#home-hero-touch{
+section#hero-touch{
   background-image: url(../images/bgs/homeimages.jpg);
-  background-position: center;
-  background-size: cover;
-  z-index: -5;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  animation: breath 25s linear infinite;
-  background-repeat: no-repeat;
-}
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10em 0 5em 0;
+    position: absolute;
+    width: 100%;
+    top: 5em;
+    animation: breath 25s linear infinite;
+    z-index: -5;
+    background-position: center;
 
+}
+h1#touch-section-title-hero{
+  font-size: 2em;
+}
 
 /* HomePage Styles */
 

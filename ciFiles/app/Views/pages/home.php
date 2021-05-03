@@ -257,6 +257,10 @@
     </script>
 </main>
 <main class="page-content d-sm-block d-md-block d-lg-none" id="home-mobile">
-    
+    <section id="hero-touch">
+        <div class="container text-center text-light">
+            <h1 id="touch-section-title-hero">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
+        </div>
+    </section>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js" integrity="sha512-UU0D/t+4/SgJpOeBYkY+lG16MaNF8aqmermRIz8dlmQhOlBnw6iQrnt4Ijty513WB3w+q4JO75IX03lDj6qQNA==" crossorigin="anonymous"></script>
