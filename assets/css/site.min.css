@@ -68,6 +68,43 @@ header#desktop{
   padding-bottom: 3em;
   background-repeat: no-repeat;
 }
+header#touch{
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 1em;
+  background-repeat: no-repeat;
+}
+ul#sidenav-menu-list{
+  list-style: none;
+  padding: 0;
+}
+div#sidenav-overlay{
+  position: fixed;
+    width: 100vw;
+    z-index: 499;
+    background-color: black;
+    right: 0;
+    left: 0;
+    opacity: 0.5;
+    top: 0;
+    bottom: 0;
+}
+div#sidenav-menu{
+  position: fixed;
+    width: 50vw;
+    z-index: 500;
+    background-color: white;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+a.sidenav-link{
+  width: 100%;
+    display: block;
+    padding: 5%;
+    color: #333;
+    font-weight: bold;
+}
 .top-nav-curved-link{
   margin-right: 3%;
   color: #393185;

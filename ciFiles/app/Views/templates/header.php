@@ -57,5 +57,46 @@
                 </div>
             </div>
         </div>
-       
+        <script>
+        setTimeout( function(){ 
+    $("header#desktop").removeClass("d-none");   
+}  , 1000 );
+
+       </script>
+    </header>
+    <header id="touch" class="d-sm-block d-md-block d-lg-none">
+       <div class="container-fluid">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 text-center">
+                    <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url("assets/images/logo.svg"); ?>" style="width: 50%; margin-bottom: 5%; margin-top: 5%;"></a>
+                </div>
+                <div class="col-2">
+                    <button id="sidenav-toggle-button" class="btn"><img src="<?php echo site_url("assets/images/menu.svg"); ?>" style="width: 20px; height: 20px; margin-top: 2em;"></button>
+                    <div id="sidenav-overlay" class="d-none"></div>
+                    <div id="sidenav-menu" class="d-none">
+                        <ul id="sidenav-menu-list">
+                            <li class="sidenav-list-item">
+                                <a href="<?php echo site_url(); ?>" class="sidenav-link">Home</a>
+                            </li>
+                            <li class="sidenav-list-item">
+                                <a href="<?php echo site_url("all-projects"); ?>" class="sidenav-link">Projects</a>
+                            </li>
+                            <li class="sidenav-list-item">
+                                <a href="<?php echo site_url("about"); ?>" class="sidenav-link">About</a>
+                            </li>
+                            <li class="sidenav-list-item">
+                                <a href="<?php echo site_url("investor-corner"); ?>" class="sidenav-link">Investor Corner</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <script>
+        setTimeout( function(){ 
+    $("header#desktop").addClass("d-none");   
+}  , 1000 );
+
+       </script>
     </header>
