@@ -1,6 +1,6 @@
 <main class="page-content" id="about">
 
-    <section id="about-text">
+    <section id="about-text" style="margin: 2em 0;">
 
         <div class="container">
 

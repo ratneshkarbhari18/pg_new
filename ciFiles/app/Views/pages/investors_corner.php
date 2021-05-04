@@ -36,7 +36,7 @@ With over more than a decade, the relationships we developed with our customers 
                     <h3 class="simple-title">Date of Incorporation and Related Facts</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla laboriosam, earum minus, iste autem aliquam ipsa pariatur et assumenda quasi fuga. Ipsum, tempora dolores. Magnam, illum! Alias, exercitationem accusamus. Neque.</p>
                 </div> -->
-                <div class="col-lg-6 col-md-12 col-sm-12" style="padding: 5% 0;">
+                <div class="col-lg-6 col-md-12 col-sm-12" style="padding: 2em 1em;">
                     <h3 class="simple-title">Registererd OFfice Details</h3>
                     <h4 class="contact-info-title">
                         SITE OFFICE:
@@ -53,6 +53,14 @@ With over more than a decade, the relationships we developed with our customers 
     </section>
 </main>
 <style>
+
+    footer#touch{
+        padding: 5em 0 2em 0;
+        position: absolute;
+        top: 165em;
+        z-index: -5;
+        width: 100%;
+    }
     .feature-card {
         border: 3px solid #008DD2;
         border-radius: 10px;
