@@ -115,6 +115,11 @@ a.sidenav-link{
   width: 30px;
   height: 30px;
 }
+.top-icon-touch{
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+}
 section#hero-touch{
   background-image: url(../images/bgs/homeimages.jpg);
     background-size: cover;
@@ -291,6 +296,10 @@ section#ia-touch{
 
 footer#desktop{
   padding: 5rem 0 5rem 0;
+  background-color: #393185;
+}
+footer#touch{
+  padding: 5rem 0 2rem 0;
   background-color: #393185;
 }
 .hover-style-button

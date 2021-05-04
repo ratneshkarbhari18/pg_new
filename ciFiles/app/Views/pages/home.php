@@ -212,7 +212,7 @@
         </div>
     </section>
     <style>
-        footer{
+        footer#desktop{
             position: absolute;
             top: 294em;
             padding: 15em 0 5em 0 !important;
@@ -473,5 +473,14 @@
             }
         );
     </script>
+    <style>
+    footer#touch{
+        padding: 5em 0 2em 0;
+        position: absolute;
+        top: 285em;
+        z-index: -5;
+        width: 100%;
+    }
+    </style>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js" integrity="sha512-UU0D/t+4/SgJpOeBYkY+lG16MaNF8aqmermRIz8dlmQhOlBnw6iQrnt4Ijty513WB3w+q4JO75IX03lDj6qQNA==" crossorigin="anonymous"></script>
