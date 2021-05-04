@@ -384,6 +384,49 @@
             </div>
         </div>
     </section>
+    <section id="ia-touch">
+        <div class="container">
+            <h1 class="section-title text-light" style="margin: 1em 0;">INDUSTRY AFFAIRS</h1>
+            <div class="owl-carousel touch-slider owl-theme">
+                <a href="https://realty.economictimes.indiatimes.com/news/residential/navi-mumbai-residential-launches-witness-5-increase-in-flat-sizes-in-h2-2020-report/81479066">
+                    <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair1.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
+                        <div class="township-meta">
+                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
+                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
+                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://realestate4investing.com/articles/real-estate-investments/10-advantages-disadvantages-real-estate-investments">
+                    <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair2.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
+                        <div class="township-meta">
+                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
+                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
+                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://timesofindia.indiatimes.com/city/mumbai/maharashtra-5-stamp-duty-for-property-registrations-restored-in-city/articleshow/81789131.cms#:~:text=The%20slashing%20of%20stamp%20duty,come%20into%20effect%20from%20Thursday">
+                    <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair3.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
+                        <div class="township-meta">
+                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
+                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
+                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.freepressjournal.in/mumbai/mumbai-housing-sales-fall-as-stamp-duty-restored">
+                    <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair4.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
+                        <div class="township-meta">
+                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
+                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
+                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
     <script>
         $(".touch-slider").owlCarousel(

@@ -272,6 +272,16 @@ section#gallery-touch{
   width: 100%;
 }
 
+section#ia-touch{
+  top: 240em;
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 10em 0 5em 0;
+}
+
 .township-meta {
   position: absolute;
   top: 30%;
