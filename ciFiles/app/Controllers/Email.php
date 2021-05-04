@@ -64,13 +64,14 @@ class Email extends BaseController
         $full_name = $this->request->getPost("full_name");
         $email = $this->request->getPost("email");
         $mobile_number = $this->request->getPost("mobile_number");
+        $location = $this->request->getPost("location");
         
         //Read an HTML message body from an external file, convert referenced images to embedded,
         //convert HTML into a basic plain-text alternative body
-        $mail->Body    = 'Full Name: '.$full_name.'<br>Email: '.$email.'<br>Mobile Number:'.$mobile_number;
+        $mail->Body    = 'Full Name: '.$full_name.'<br>Email: '.$email.'<br>Mobile Number:'.$mobile_number.'<br>Location:'.$location;
         
         //Replace the plain text body with one created manually
-        $mail->AltBody = 'This is a plain-text message body';
+        // $mail->AltBody = 'This is a plain-text message body';
         
         //Attach an image file
         // $mail->addAttachment('images/phpmailer_mini.png');

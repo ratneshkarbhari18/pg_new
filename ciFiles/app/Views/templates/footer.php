@@ -2,14 +2,23 @@
     <footer id="desktop" class="d-none d-lg-block d-xl-block">
         <div class="container">
             <form action="<?php  echo site_url("send-contact-form-lead"); ?>" class="row" method="post">
-                <div class="col-lg-3 d-grid gap-2">
-                    <input class="d-block" type="text" placeholder="Name" name="full_name" id="full_name" style="padding: 3% 0 3% 5%; border-radius: 30px; width: 100%;" required>
-                </div>
-                <div class="col-lg-3 d-grid gap-2">
-                    <input class="d-block" type="email" placeholder="Email" name="email" id="email" style="padding: 3% 0 3% 5%; border-radius: 30px; width: 100%;" required>
-                </div>
-                <div class="col-lg-3 d-grid gap-2">
-                    <input class="d-block" type="text" placeholder="Mobile Number" name="mobile_number" id="mobile_number" style="padding: 3% 0 3% 5%; border-radius: 30px; width: 100%;" required>
+                <div class="col-9">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-3 d-grid gap-2">
+                                <input class="d-block" type="text" placeholder="Name" name="full_name" id="full_name" style="padding: 3% 0 3% 5%; border-radius: 30px; width: 100%;" required>
+                            </div>
+                            <div class="col-lg-3 d-grid gap-2">
+                                <input class="d-block" type="email" placeholder="Email" name="email" id="email" style="padding: 3% 0 3% 5%; border-radius: 30px; width: 100%;" required>
+                            </div>
+                            <div class="col-lg-3 d-grid gap-2">
+                                <input class="d-block" type="text" placeholder="Mobile Number" name="mobile_number" id="mobile_number" style="padding: 3% 0 3% 5%; border-radius: 30px; width: 100%;" required>
+                            </div>
+                            <div class="col-lg-3 d-grid gap-2">
+                                <input class="d-block" type="text" placeholder="Location" name="location" id="location" style="padding: 3% 0 3% 5%; border-radius: 30px; width: 100%;" required>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-3 mb-3 d-grid gap-2">
                     <button class="btn w-100 hover-style-button" type="submit" style="    font-size: 14px;">Submit</button>
@@ -68,6 +77,9 @@
                 </div>
                 <div class="col-12 d-grid gap-2">
                     <input class="d-block" type="text" placeholder="Mobile Number" name="mobile_number" id="mobile_number" style="padding: 3% 0 3% 5%; margin-bottom: 1em; width: 100%;">
+                </div>
+                <div class="col-12 d-grid gap-2">
+                    <input class="d-block" type="text" placeholder="Location" name="location" id="location" style="padding: 3% 0 3% 5%; margin-bottom: 1em; width: 100%;">
                 </div>
                 <div class="col-12 mb-3 d-grid gap-2">
                     <button type="submit" class="btn w-100 hover-style-button" style="font-size: 20px;">Submit</button>
