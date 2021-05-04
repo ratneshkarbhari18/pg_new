@@ -64,4 +64,9 @@ class PageLoader extends BaseController
 		echo view("templates/footer",$data);
 	}
 
+	public function thank_you(){
+		$data = array("title"=>"Thank You");
+		echo view('pages/thank_you',$data);
+	}
+
 }

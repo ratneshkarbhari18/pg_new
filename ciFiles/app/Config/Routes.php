@@ -42,6 +42,7 @@ $routes->get("precious-heritage","PageLoader::precious_heritage");
 $routes->get("vishwajeet-pink-city","PageLoader::vj_pinkcity");
 $routes->get("vishwajeet-precious","PageLoader::vj_precious");
 $routes->post("send-contact-form-lead","Email::send");
+$routes->get("thank-you","PageLoader::thank_you");
 /*
  * --------------------------------------------------------------------
  * Additional Routing
