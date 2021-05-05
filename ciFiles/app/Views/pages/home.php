@@ -475,11 +475,11 @@
     </script>
     <style>
     footer#touch{
-        padding: 5em 0 2em 0;
-        position: absolute;
-        top: 285em;
-        z-index: -5;
-        width: 100%;
+        padding: 10em 0 2em 0;
+    position: absolute;
+    top: 305em;
+    z-index: -5;
+    width: 100%;
     }
     </style>
 </main>
