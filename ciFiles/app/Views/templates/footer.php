@@ -107,7 +107,7 @@
                 </div>
                 <div class="col-12 text-center" style="margin-top: 3em;">
                     <p class="text-light">&copy; Precious Group 2021 | All Rights Reserved</p>
-                    <p class="text-light">Developed with &#9829; by <a href="" style="color: #FFD700
+                    <p class="text-light">Developed by <a href="" style="color: #FFD700
 ;">Prapanch Studio</a></p>
                 </div>
                 <!-- <div class="test-left col-12" style="padding-right: 0;">
