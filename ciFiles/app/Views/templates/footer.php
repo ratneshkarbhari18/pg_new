@@ -90,10 +90,10 @@
                     <a href="#" style="border-radius: 30px; margin-top: 2%;"  class="btn btn-primary text-light">QUICK LINKS</a><br>
                 </div>
                 <div class="test-left col-12" style="padding-left: 0;">
-                    <p style=" margin-bottom:0; margin-top: 2%; font-size: 25px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/call_gold_new.svg"); ?>" style="width: 30px; margin-right: 3%; height: 30px;">022 2650 6597</p>
+                    <p style=" margin-bottom:0; margin-top: 2%; font-size: 20px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/call_gold_new.svg"); ?>" style="width: 30px; margin-right: 3%; height: 30px;">022 2650 6597</p>
                 </div>
                 <div class="test-left col-12" style="padding-left: 0;">
-                    <p style=" margin-bottom:0; margin-top: 2%; font-size: 25px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/mail_new_gold.svg"); ?>" style="width: 30px; margin-right: 3%; height: 30px;">info@preciousgroup.com</p>
+                    <p style=" margin-bottom:0; margin-top: 2%; font-size: 20px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/mail_new_gold.svg"); ?>" style="width: 30px; margin-right: 3%; height: 30px;">info@preciousgroup.com</p>
                 </div>
                 <div class="col-12" style="margin-top: 2em;">
                     <a href="#" style="border-radius: 30px; margin-top: 2%;"  class="btn btn-primary text-light">EMI CALCULATOR</a><br>

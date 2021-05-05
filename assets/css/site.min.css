@@ -195,7 +195,7 @@ section#projects-touch{
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  top: 145em;
+  top: 155em;
   background-position: center;
 }
 section#projects-desktop
@@ -218,7 +218,7 @@ section#projects-desktop
 section#about-section-touch{
   position: absolute;
     width: 100%;
-    top: 55em;
+    top: 68em;
     padding: 10em 0;
 }
 .project-grid-meta{
@@ -403,6 +403,63 @@ h2.project-title{
 section#customer-speaks-touch {
   position: absolute;
   width: 100%;
-  top: 175em;
+  top: 180em;
   padding-bottom: 5em;
+}
+
+/* Media Queries */
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+.usual-projects-page-section{
+  padding: 0;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+.usual-projects-page-section{
+  padding: 0;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+.usual-projects-page-section{
+  padding: 0;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+.usual-projects-page-section{
+  padding: 0;
+}
+  
 }

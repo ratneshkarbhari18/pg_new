@@ -265,7 +265,7 @@
     </section>
     <section id="map-section-touch">
         <div class="container text-center">
-            <img src="<?php echo site_url("assets/images/maploc.png"); ?>" alt="" class="w-50" style="margin-bottom: 1em;">
+            <img src="<?php echo site_url("assets/images/maploc.png"); ?>" alt="" class="w-100" style="margin-bottom: 1em;">
             <img src="<?php echo site_url("assets/images/map_nfacts_text.jpg"); ?>" alt="" class="w-50" style="margin-bottom: 1em;">
             <div id="address" class="text-center w-100" style="margin-bottom: 2em;">
                 <h4 style="color: #393185;">Head Office: </h4>

@@ -32,8 +32,8 @@
             <div class="owl-carousel" id="ongoing-projects-carousel">
                 <div class="project-slide" style="border: 3px solid #008DD2; border-radius: 10px;">
                     <a href="<?php echo site_url("precious-harmony"); ?>">
-                    <div class="img-container">
-                        <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+                    <div class="img-container" style="overflow: hidden; height: 40vh; background-image: url('<?php echo site_url("assets/images/project_featured/precious_harmony.jpeg"); ?>');">
+                        <!-- <img src="" class="project-image" style="width: 500%;"> -->
                     </div>
                     <div class="meta-container container-fluid">
                         <h3 class="project-title">Precious Harmony</h3>
@@ -43,8 +43,8 @@
                 </div>
                 <div class="project-slide" style="border: 3px solid #008DD2; border-radius: 10px;">
                     <a href="<?php echo site_url("precious-emerald"); ?>">
-                    <div class="img-container">
-                        <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+                    <div class="img-container" style="overflow: hidden; height: 40vh; background-image: url('<?php echo site_url("assets/images/project_featured/precious_emerald.jpg"); ?>');">
+                        <!-- <img src="" class="project-image" style="width: 500%;"> -->
                     </div>
                     <div class="meta-container container-fluid">
                         <h3 class="project-title">Precious Emerald</h3>
@@ -52,10 +52,10 @@
                     </div>
                     </a>
                 </div>
-                <div class="project-slide" style="border: 3px solid #008DD2; border-radius: 10px;">
+                <div class="project-slide" style="border: 3px solid #008DD2; border-radius: 10px; background-image: url('<?php echo site_url("assets/images/project_featured/precious_harmony.jpeg"); ?>');">
                     <a href="<?php echo site_url("precious-heritage"); ?>">
-                    <div class="img-container">
-                        <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+                    <div class="img-container" style="overflow: hidden; height: 40vh; background-image: url('<?php echo site_url("assets/images/project_featured/precious_heritage.jpg"); ?>');">
+                        <!-- <img src="" class="project-image" style="width: 500%;"> -->
                     </div>
                     <div class="meta-container container-fluid">
                         <h3 class="project-title">Precious Heritage</h3>
@@ -65,8 +65,8 @@
                 </div>
                 <div class="project-slide" style="border: 3px solid #008DD2; border-radius: 10px;">
                     <a href="<?php echo site_url("vishwajeet-pink-city"); ?>">
-                    <div class="img-container">
-                        <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+                    <div class="img-container" style="overflow: hidden; height: 40vh;  background-image: url('<?php echo site_url("assets/images/project_featured/vj_pinkcity.jpg"); ?>');">
+                        <!-- <img class="project-image" style="width: 500%;"> -->
                     </div>
                     <div class="meta-container container-fluid">
                         <h3 class="project-title">Vishwajeet PinkCity</h3>
@@ -76,8 +76,8 @@
                 </div>
                 <div class="project-slide" style="border: 3px solid #008DD2; border-radius: 10px;">
                     <a href="<?php echo site_url("vishwajeet-pink-city"); ?>">
-                    <div class="img-container">
-                        <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+                    <div class="img-container" style="overflow: hidden; height: 40vh; background-image: url('<?php echo site_url("assets/images/vj_precious.jpg"); ?>');">
+                        <!-- <img src="" class="project-image" style="width: 500%;"> -->
                     </div>
                     <div class="meta-container container-fluid">
                         <h3 class="project-title">Vishwajeet Precious</h3>
@@ -208,6 +208,7 @@
     }
     .img-container{
         overflow: hidden;
+        background-size: cover;
     }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
