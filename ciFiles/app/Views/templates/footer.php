@@ -44,12 +44,12 @@
                             <li class="nav-item">
                                 <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/insta_gold.svg"); ?>" class="top-icon"></a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/twitter_gold.svg"); ?>" class="top-icon"></a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/icon_gold_04.svg"); ?>" class="top-icon"></a>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                 </div>
@@ -101,9 +101,9 @@
                 <div class="col-12" style="margin-top: 2em;">
                     <a href="#"><img src="<?php echo site_url("assets/images/icon_gold_01.svg"); ?>" class="top-icon-touch"></a>
                     <a href="#"><img src="<?php echo site_url("assets/images/insta_gold.svg"); ?>" class="top-icon-touch"></a>
-                    <a href="#"><img src="<?php echo site_url("assets/images/twitter_gold.svg"); ?>" class="top-icon-touch"></a>
+                    <!-- <a href="#"><img src="<?php echo site_url("assets/images/twitter_gold.svg"); ?>" class="top-icon-touch"></a>
                     <a href="#"><img src="<?php echo site_url("assets/images/icon_gold_04.svg"); ?>" class="top-icon-touch"></a>
-                    <a href="#" ><img src="<?php echo site_url("assets/images/whatsapp.png"); ?>" class="top-icon-touch"></a>
+                    <a href="#" ><img src="<?php echo site_url("assets/images/whatsapp.png"); ?>" class="top-icon-touch"></a> -->
                 </div>
                 <div class="col-12 text-center" style="margin-top: 3em;">
                     <p class="text-light">&copy; Precious Group 2021 | All Rights Reserved</p>

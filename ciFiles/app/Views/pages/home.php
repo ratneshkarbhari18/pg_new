@@ -79,7 +79,7 @@
                             <h4 class="project-grid-title">Precious Harmony</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>
-                        <a href="#" id="vp-button-1" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
+                        <a href="<?php echo site_url("precious-harmony"); ?>" id="vp-button-1" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
                         VIEW PROPERTIES
                         </a>
                     </div>
@@ -90,7 +90,7 @@
                             <h4 class="project-grid-title">Precious Emerald</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>
-                        <a href="#" id="vp-button-2" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute;  top: 45%; left: 25%; padding: 1%;">
+                        <a href="<?php echo site_url("precious-emerald"); ?>" id="vp-button-2" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute;  top: 45%; left: 25%; padding: 1%;">
                         VIEW PROPERTIES
                         </a>
                     </div>
@@ -101,14 +101,14 @@
                             <h4 class="project-grid-title">Precious Heritage</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>
-                        <a href="#" id="vp-button-3" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
+                        <a href="<?php echo site_url("precious-heritage"); ?>" id="vp-button-3" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
                         VIEW PROPERTIES
                         </a>
                     </div>
                 </div>
             </div>
             <script>
-                $(".project-grid-box-touch").hover(function () {
+                $(".project-grid-box").hover(function () {
                     let pid = $(this).attr("pid");
                     $("a#vp-button-"+pid).css("display","block");
                     $("div#p-meta-"+pid).css("display","none");
@@ -118,7 +118,7 @@
                         $("div#p-meta-"+pid).css("display","block");
                     }
                 );
-                $(".project-grid-box-touch").on('hover', function () {
+                $(".project-grid-box").on('hover', function () {
                     let pid = $(this).attr("pid");
                     $("a#vp-button-"+pid).css("display","block");
                     $("div#p-meta-"+pid).css("display","none");
@@ -175,36 +175,32 @@
                 <a href="https://realty.economictimes.indiatimes.com/news/residential/navi-mumbai-residential-launches-witness-5-increase-in-flat-sizes-in-h2-2020-report/81479066">
                     <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair1.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
-                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
-                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
-                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                            <h4 class="text-light" style="font-weight: bold;">Navi Mumbai residential launches witness 5% increase in flat sizes in H2 2020: Report</h4>
+                            <p class="text-light" >Read More ></p>
                         </div>
                     </div>
                 </a>
                 <a href="https://realestate4investing.com/articles/real-estate-investments/10-advantages-disadvantages-real-estate-investments">
                     <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair2.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
-                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
-                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
-                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                            <h4 class="text-light" style="font-weight: bold;">Real Estate 4 Investing</h4>
+                            <p class="text-light" >Read More ></p>
                         </div>
                     </div>
                 </a>
                 <a href="https://timesofindia.indiatimes.com/city/mumbai/maharashtra-5-stamp-duty-for-property-registrations-restored-in-city/articleshow/81789131.cms#:~:text=The%20slashing%20of%20stamp%20duty,come%20into%20effect%20from%20Thursday">
                     <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair3.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
-                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
-                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
-                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                            <h4 class="text-light" style="font-weight: bold;">5% Stamp duty for property registrations restored in Mumbai</h4>
+                            <p class="text-light" >Read More ></p>
                         </div>
                     </div>
                 </a>
                 <a href="https://www.freepressjournal.in/mumbai/mumbai-housing-sales-fall-as-stamp-duty-restored">
                     <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair4.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
-                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
-                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
-                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                            <h4 class="text-light" style="font-weight: bold;">Housing Sales fall as stamp duty restored</h4>
+                            <p class="text-light" >Read More ></p>
                         </div>
                     </div>
                 </a>
@@ -328,6 +324,11 @@
                     </div>
                 </a>
             </div>
+            <div class="text-center">
+                <a href="<?php echo site_url("all-projects"); ?>" class="btn" style="background-color: white; border: 3px solid #393185; color: #393185; margin-top: 5%;">
+                VIEW ALL PROJECTS
+                </a>
+            </div>
         </div>
         <!-- <script>
             $(".project-grid-box-touch").hover(function () {
@@ -397,36 +398,32 @@
                 <a href="https://realty.economictimes.indiatimes.com/news/residential/navi-mumbai-residential-launches-witness-5-increase-in-flat-sizes-in-h2-2020-report/81479066">
                     <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair1.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
-                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
-                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
-                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                            <h4 class="text-light" style="font-weight: bold;">Navi Mumbai residential launches witness 5% increase in flat sizes in H2 2020: Report</h4>
+                            <p class="text-light" >Read More ></p>
                         </div>
                     </div>
                 </a>
                 <a href="https://realestate4investing.com/articles/real-estate-investments/10-advantages-disadvantages-real-estate-investments">
                     <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair2.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
-                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
-                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
-                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                            <h4 class="text-light" style="font-weight: bold;">Real Estate 4 Investing</h4>
+                            <p class="text-light" >Read More ></p>
                         </div>
                     </div>
                 </a>
                 <a href="https://timesofindia.indiatimes.com/city/mumbai/maharashtra-5-stamp-duty-for-property-registrations-restored-in-city/articleshow/81789131.cms#:~:text=The%20slashing%20of%20stamp%20duty,come%20into%20effect%20from%20Thursday">
                     <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair3.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
-                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
-                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
-                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                            <h4 class="text-light" style="font-weight: bold;">5% Stamp duty for property registrations restored in Mumbai</h4>
+                            <p class="text-light" >Read More ></p>
                         </div>
                     </div>
                 </a>
                 <a href="https://www.freepressjournal.in/mumbai/mumbai-housing-sales-fall-as-stamp-duty-restored">
                     <div class="ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair4.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
-                            <h4 class="text-light" style="font-weight: bold;">TOWNSHIP</h4>
-                            <p class="text-light" style="font-weight: bold;">Ulve, Navi Mumbai</p>
-                            <p class="text-light" style="font-weight: bold;">2BHK, 1BHK</p>
+                            <h4 class="text-light" style="font-weight: bold;">Housing Sales fall as stamp duty restored</h4>
+                            <p class="text-light" >Read More ></p>
                         </div>
                     </div>
                 </a>
