@@ -297,33 +297,39 @@
     <section id="projects-touch">
         <div class="container">
             <div class="owl-carousel touch-slider owl-theme">
-                <div class="project-grid-box-touch" pid="1" style="background-image: url('<?php echo site_url("assets/images/home_p1.jpg") ?>'); background-size: cover;">
-                    <div id="p-meta-1" class="project-grid-meta-touch text-center">
-                        <h4 class="project-grid-title">Precious Harmony</h4>
+                <a href="<?php echo site_url("precious-harmony"); ?>">
+                    <div class="project-grid-box-touch" pid="1" style="background-image: url('<?php echo site_url("assets/images/home_p1.jpg") ?>'); background-size: cover;">
+                        <div id="p-meta-1" class="project-grid-meta-touch text-center">
+                            <h4 class="project-grid-title">Precious Harmony</h4>
+                        </div>
+                        <a href="<?php  echo site_url("precious-harmony"); ?>" id="vp-button-1" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
+                        VIEW PROPERTIES
+                        </a>
                     </div>
-                    <a href="<?php  echo site_url("precious-harmony"); ?>" id="vp-button-1" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
-                    VIEW PROPERTIES
-                    </a>
-                </div>
-                <div class="project-grid-box-touch" pid="2" style="background-image: url('<?php echo site_url("assets/images/home_p2.jpg") ?>'); background-size: cover;">
-                    <div id="p-meta-1" class="project-grid-meta-touch text-center">
-                        <h4 class="project-grid-title">Precious Emerald</h4>
+                </a>
+                <a href="<?php echo site_url("precious-emerald"); ?>">
+                    <div class="project-grid-box-touch" pid="2" style="background-image: url('<?php echo site_url("assets/images/home_p2.jpg") ?>'); background-size: cover;">
+                        <div id="p-meta-1" class="project-grid-meta-touch text-center">
+                            <h4 class="project-grid-title">Precious Emerald</h4>
+                        </div>
+                        <a href="<?php  echo site_url("precious-emerald"); ?>" id="vp-button-2" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
+                        VIEW PROPERTIES
+                        </a>
                     </div>
-                    <a href="<?php  echo site_url("precious-emerald"); ?>" id="vp-button-2" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
-                    VIEW PROPERTIES
-                    </a>
-                </div>
-                <div class="project-grid-box-touch" pid="3" style="background-image: url('<?php echo site_url("assets/images/home_p3.jpg") ?>'); background-size: cover;">
-                    <div id="p-meta-1" class="project-grid-meta-touch text-center">
-                        <h4 class="project-grid-title">Precious Heritage</h4>
+                </a>
+                <a href="<?php echo site_url("precious-heritage"); ?>">
+                    <div class="project-grid-box-touch" pid="3" style="background-image: url('<?php echo site_url("assets/images/home_p3.jpg") ?>'); background-size: cover;">
+                        <div id="p-meta-1" class="project-grid-meta-touch text-center">
+                            <h4 class="project-grid-title">Precious Heritage</h4>
+                        </div>
+                        <a href="<?php  echo site_url("precious-heritage"); ?>" id="vp-button-3" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
+                        VIEW PROPERTIES
+                        </a>
                     </div>
-                    <a href="<?php  echo site_url("precious-heritage"); ?>" id="vp-button-3" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; top: 45%; left: 25%; padding: 1%;">
-                    VIEW PROPERTIES
-                    </a>
-                </div>
+                </a>
             </div>
         </div>
-        <script>
+        <!-- <script>
             $(".project-grid-box-touch").hover(function () {
                 let pid = $(this).attr("pid");
                 $("a#vp-button-"+pid).css("display","block");
@@ -340,7 +346,7 @@
                 $("a#vp-button-"+pid).css("display","block");
                 $("div#p-meta-"+pid).css("display","none");
             });
-        </script>
+        </script> -->
     </section>
     <section id="customer-speaks-touch">
         <div class="container">
