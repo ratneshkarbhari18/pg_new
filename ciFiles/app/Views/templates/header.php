@@ -19,10 +19,10 @@
                     <nav class="navbar navbar-expand-lg">
                         <ul id="left-nav-top-desktop" class="nav-list navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/whatsapp.png"); ?>" class="top-icon"></a>
+                                <a href="https://wa.me/918013631363" class="nav-link"><img src="<?php echo site_url("assets/images/whatsapp.png"); ?>" class="top-icon"></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img id="social-icon-3" alt-img-src="<?php echo site_url("assets/images/mail_gold.svg"); ?>" src="<?php echo site_url("assets/images/mail_blue.svg"); ?>" class="top-icon color-changer-icon"></a>
+                                <a href="mailto:preciousgroup9@gmail.com" class="nav-link"><img id="social-icon-3" alt-img-src="<?php echo site_url("assets/images/mail_gold.svg"); ?>" src="<?php echo site_url("assets/images/mail_blue.svg"); ?>" class="top-icon color-changer-icon"></a>
                             </li>
                         </ul>
                     </nav>   
