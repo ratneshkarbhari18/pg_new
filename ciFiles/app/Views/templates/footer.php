@@ -39,10 +39,10 @@
                     <nav class="navbar navbar-expand-lg" style="padding-right: 0;">
                         <ul id="left-nav-top-desktop" class="nav-list navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/icon_gold_01.svg"); ?>" class="top-icon"></a>
+                                <a href="https://www.facebook.com/preciousgroupofficial" class="nav-link"><img src="<?php echo site_url("assets/images/icon_gold_01.svg"); ?>" class="top-icon"></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/insta_gold.svg"); ?>" class="top-icon"></a>
+                                <a href="https://www.instagram.com/preciousgroupofficial/" class="nav-link"><img src="<?php echo site_url("assets/images/insta_gold.svg"); ?>" class="top-icon"></a>
                             </li>
                             <!-- <li class="nav-item">
                                 <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/twitter_gold.svg"); ?>" class="top-icon"></a>
@@ -133,13 +133,21 @@
     </footer>
     <div id="quick-actions-box" class="d-none d-lg-block d-xl-block">
         <ul id="qa-list">
-            <li class="qa-box-list-item"><a href="#">
+            <li class="qa-box-list-item"><a href="tel:+91 80136 31363">
                 <img data-toggle="tooltip"  data-placement="left" title="Call" src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
-            <li class="qa-box-list-item"><a href="#">
+            <li class="qa-box-list-item"><a href="#" id="scrollToFooterForm">
                 <img data-toggle="tooltip"  data-placement="left" title="Send Enquiry" src="<?php echo site_url("assets/images/form.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
-            <li class="qa-box-list-item" style="margin-bottom: 0;"><a href="#">
+            <script>
+            $("a#scrollToFooterForm").click(function (e) { 
+                e.preventDefault();
+                $('html, body').animate({
+                scrollTop: $("footer#desktop").offset().top
+                }, 1000);                  
+            });
+            </script>
+            <li class="qa-box-list-item" style="margin-bottom: 0;"><a href="javascript:void(Tawk_API.toggle())">
                 <img data-toggle="tooltip"  data-placement="left" title="Chat" src="<?php echo site_url("assets/images/chat.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
         </ul>
@@ -148,6 +156,19 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="<?php echo site_url("assets/js/bootstrap.min.js"); ?>"></script>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60937a39b1d5182476b61f49/1f501at36';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
     <script src="<?php echo site_url("assets/js/site.min.js"); ?>"></script>
 </body>
 </html>

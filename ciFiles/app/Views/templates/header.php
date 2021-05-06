@@ -41,10 +41,10 @@
                     <nav class="navbar navbar-expand-lg">
                         <ul id="left-nav-top-desktop" class="nav-list navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img id="social-icon-1" alt-img-src="<?php echo site_url("assets/images/icon_gold_01.svg"); ?>" src="<?php echo site_url("assets/images/socialmedia_icon-01.svg"); ?>" class="top-icon color-changer-icon"></a>
+                                <a href="https://www.facebook.com/preciousgroupofficial" class="nav-link"><img id="social-icon-1" alt-img-src="<?php echo site_url("assets/images/icon_gold_01.svg"); ?>" src="<?php echo site_url("assets/images/socialmedia_icon-01.svg"); ?>" class="top-icon color-changer-icon"></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img id="social-icon-2" alt-img-src="<?php echo site_url("assets/images/icon_gold_02.svg"); ?>" src="<?php echo site_url("assets/images/icon_blue-02.svg"); ?>" class="top-icon color-changer-icon"></a>
+                                <a href="https://www.instagram.com/preciousgroupofficial" class="nav-link"><img id="social-icon-2" alt-img-src="<?php echo site_url("assets/images/icon_gold_02.svg"); ?>" src="<?php echo site_url("assets/images/icon_blue-02.svg"); ?>" class="top-icon color-changer-icon"></a>
                             </li>
                             <!-- <li class="nav-item">
                                 <a href="#" class="nav-link"><img id="social-icon-3" alt-img-src="<?php echo site_url("assets/images/icon_gold_03.svg"); ?>" src="<?php echo site_url("assets/images/icon_blue-03.svg"); ?>" class="top-icon color-changer-icon"></a>
