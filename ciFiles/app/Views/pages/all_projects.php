@@ -106,8 +106,8 @@
                                                 <h5 class="variable">AMOUNT</h5>
                                             </div>
                                             <div class="form-group col-6">
-                                                <input type="range" class="form-control-range" id="loanAmount">
-                                                <p class="variable-value-wrapper">₹ <span class="variable-value-figure">0</span></label>
+                                                <input type="range" class="form-control-range emi-calc-variable" id="loanAmount" min="1" max="50">
+                                                <p class="variable-value-wrapper">₹ <span class="variable-value-figure" id="pincipleValue">0</span></label>
                                             </div>
                                         </div>
                                     </li>
@@ -117,8 +117,8 @@
                                                 <h5 class="variable">MONTHS</h5>
                                             </div>
                                             <div class="form-group col-6">
-                                                <input type="range" class="form-control-range" id="loanMonths">
-                                                <p class="variable-value-wrapper"><span class="variable-value-figure">0</span> MONTHS</label>
+                                                <input type="range" class="form-control-range emi-calc-variable" id="loanMonths" min="3" max="60">
+                                                <p class="variable-value-wrapper"><span class="variable-value-figure" id="monthValue">0</span> MONTHS</label>
                                             </div>
                                         </div>
                                     </li>
@@ -128,8 +128,8 @@
                                                 <h5 class="variable">INTEREST RATE</h5>
                                             </div>
                                             <div class="form-group col-6">
-                                                <input type="range" class="form-control-range" id="loanROI">
-                                                <p class="variable-value-wrapper"><span class="variable-value-figure">0</span> %</label>
+                                                <input type="range" class="form-control-range emi-calc-variable" id="loanROI" min="5" max="30">
+                                                <p class="variable-value-wrapper"><span class="variable-value-figure" id="roiValue">0</span> %</label>
                                             </div>
                                         </div>
                                     </li>
@@ -139,10 +139,10 @@
                                 <div class="card" id="results-card">
                                     <div class="card-body">
                                         <p class="result-title">LOAN EMI</p>
-                                        <p class="calculated-amount-wrapper">₹ <span id="caclulated-amount">1331.21</span></p>
+                                        <p class="calculated-amount-wrapper">₹ <span id="caclulated-emi">0</span></p>
                                         <p class="result-title">TOTAL PAYMENT</p>
                                         <p class="result-title">(PRINCIPLE + INTEREST)</p>
-                                        <p class="calculated-amount-wrapper">₹ <span id="caclulated-amount">1331.21</span></p>
+                                        <p class="calculated-amount-wrapper">₹ <span id="caclulated-amount">0</span></p>
                                     </div>
                                 </div>
                             </div>
